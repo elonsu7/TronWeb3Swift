@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TronWeb3Swift'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of TronWeb3Swift.'
 
 # This description is used to generate tags and improve search results.

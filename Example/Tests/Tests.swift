@@ -1,5 +1,4 @@
 import XCTest
-import TronWeb3Swift
 
 class Tests: XCTestCase {
     

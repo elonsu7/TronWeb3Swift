@@ -38,5 +38,10 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.module_name = 'web3swift'
+  s.dependency 'PromiseKit', '~> 6.4'
+  s.dependency 'BigInt', '~> 3.1'
+  s.dependency 'secp256k1.c', '~> 0.1'
+  s.dependency 'keccak.c', '~> 0.1'
+  s.dependency 'scrypt.c', '~> 0.1'
 end

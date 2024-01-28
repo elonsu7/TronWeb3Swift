@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'TronWeb3Swift_Example' do
+  pod 'TronWeb3Swift', :path => '../'
+
+  target 'TronWeb3Swift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

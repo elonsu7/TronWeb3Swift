@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TronWeb3Swift'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'A short description of TronWeb3Swift.'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'xuchina67' => 'elon.xu@tron.network' }
   s.source           = { :git => 'https://github.com/xuchina67/TronWeb3Swift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.platform = :ios, '10.0'
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'TronWeb3Swift/Classes/**/*'

@@ -127,7 +127,7 @@ public struct EIP67Code {
         let from = self
         guard let string = from.toString().addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) else { return CIImage() }
         guard let data = string.data(using: .utf8, allowLossyConversion: false) else { return CIImage() }
-        let filter = CIFilter(name: "CIQRCodeGenerator", withInputParameters: ["inputMessage": data, "inputCorrectionLevel": "L"])
+        let filter = CIFilter(name: "CIQRCodeGenerator", parameters: ["inputMessage": data, "inputCorrectionLevel": "L"])
         guard var image = filter?.outputImage else { return CIImage() }
         let transformation = CGAffineTransform(scaleX: CGFloat(scale), y: CGFloat(scale))
         image = image.transformed(by: transformation)
